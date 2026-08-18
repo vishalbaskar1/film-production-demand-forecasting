@@ -1,0 +1,76 @@
+sku_id,equipment_name,equipment_category,unit_cost,supplier,lead_time_days,popularity_factor
+SKU-001,Cinema Camera Body A,Camera,63046.7,Pacific Audio Works,17,1.455
+SKU-002,Cinema Camera Body B,Camera,57302.6,Apex Grip & Lighting Supply,12,0.521
+SKU-003,Cinema Camera Body C,Camera,62085.48,Coastal Cine Supply,18,0.992
+SKU-004,Documentary Camera Body A,Camera,38778.95,Pacific Audio Works,16,1.475
+SKU-005,Documentary Camera Body B,Camera,53289.88,Coastal Cine Supply,14,1.263
+SKU-006,Broadcast Camera Body A,Camera,22042.9,Summit Equipment Partners,11,0.619
+SKU-007,Compact Cinema Camera A,Camera,67072.34,Summit Equipment Partners,13,0.912
+SKU-008,Compact Cinema Camera B,Camera,31589.45,Northline Rentals Wholesale,10,0.926
+SKU-009,Large Format Camera A,Camera,63378.76,Meridian Camera Systems,19,1.305
+SKU-010,Large Format Camera B,Camera,8285.28,Apex Grip & Lighting Supply,16,1.24
+SKU-011,Prime Lens Set A (18-100mm),Lens,22853.34,Northline Rentals Wholesale,9,0.774
+SKU-012,Prime Lens Set B (24-135mm),Lens,12372.87,Pacific Audio Works,7,1.759
+SKU-013,Zoom Lens 24-70mm,Lens,5637.8,Pacific Audio Works,12,0.662
+SKU-014,Zoom Lens 70-200mm,Lens,20754.79,Pacific Audio Works,14,1.312
+SKU-015,Anamorphic Lens Set A,Lens,25303.27,Coastal Cine Supply,10,1.06
+SKU-016,Macro Lens 100mm,Lens,10073.19,Coastal Cine Supply,8,1.118
+SKU-017,Wide Angle Lens 14mm,Lens,7597.43,Apex Grip & Lighting Supply,13,1.156
+SKU-018,Telephoto Lens 300mm,Lens,20615.82,Coastal Cine Supply,10,0.852
+SKU-019,Vintage Lens Set A,Lens,14849.64,Summit Equipment Partners,11,0.871
+SKU-020,Speed Booster Adapter A,Lens,5206.84,Coastal Cine Supply,10,1.623
+SKU-021,LED Panel Light A,Lighting,8695.92,Coastal Cine Supply,5,1.085
+SKU-022,LED Panel Light B,Lighting,8526.9,Summit Equipment Partners,5,1.487
+SKU-023,Fresnel Light 650W,Lighting,946.86,Pacific Audio Works,7,1.536
+SKU-024,Fresnel Light 1000W,Lighting,6423.67,Northline Rentals Wholesale,12,0.567
+SKU-025,HMI Light 1200W,Lighting,1345.39,Meridian Camera Systems,11,1.074
+SKU-026,HMI Light 4000W,Lighting,10097.79,Summit Equipment Partners,6,1.082
+SKU-027,Softbox Kit A,Lighting,10132.55,Pacific Audio Works,8,1.257
+SKU-028,Ring Light A,Lighting,2921.11,Apex Grip & Lighting Supply,7,0.826
+SKU-029,Practical Light Kit A,Lighting,10974.21,Pacific Audio Works,10,0.791
+SKU-030,Light Stand Kit A,Lighting,7765.15,Apex Grip & Lighting Supply,12,1.25
+SKU-031,Dimmer/Board Controller A,Lighting,6969.27,Pacific Audio Works,6,0.809
+SKU-032,Shotgun Microphone A,Audio,3225.36,Pacific Audio Works,8,0.485
+SKU-033,Lavalier Mic Kit A,Audio,766.43,Northline Rentals Wholesale,7,1.221
+SKU-034,Boom Pole Kit A,Audio,3558.59,Meridian Camera Systems,7,1.915
+SKU-035,Field Audio Recorder A,Audio,3938.0,Coastal Cine Supply,6,0.627
+SKU-036,Wireless Mic System A,Audio,1506.76,Apex Grip & Lighting Supply,5,0.844
+SKU-037,Wireless Mic System B,Audio,2387.73,Meridian Camera Systems,9,1.243
+SKU-038,Audio Mixer A,Audio,2980.25,Meridian Camera Systems,8,0.485
+SKU-039,Studio Headphones Kit A,Audio,3840.89,Coastal Cine Supply,7,1.123
+SKU-040,Boom Pole Kit B,Audio,3211.08,Summit Equipment Partners,5,0.887
+SKU-041,C-Stand Kit A,Grip,344.89,Pacific Audio Works,6,1.116
+SKU-042,Sandbag Set A,Grip,1532.57,Meridian Camera Systems,3,1.195
+SKU-043,Dolly Track Kit A,Grip,399.87,Summit Equipment Partners,3,0.726
+SKU-044,Camera Dolly A,Grip,2782.85,Summit Equipment Partners,7,0.502
+SKU-045,Grip Arm Kit A,Grip,1813.65,Apex Grip & Lighting Supply,3,0.479
+SKU-046,Apple Box Set A,Grip,1498.68,Coastal Cine Supply,4,1.521
+SKU-047,Flag/Scrim Kit A,Grip,1511.31,Pacific Audio Works,6,1.23
+SKU-048,Gimbal Stabilizer A,Grip,1758.01,Pacific Audio Works,5,1.143
+SKU-049,Tripod Head A,Grip,1061.55,Summit Equipment Partners,5,0.736
+SKU-050,Slider Rig A,Grip,162.68,Coastal Cine Supply,4,1.082
+SKU-051,V-Mount Battery A,Battery,113.11,Summit Equipment Partners,3,0.433
+SKU-052,V-Mount Battery B,Battery,352.51,Meridian Camera Systems,2,1.151
+SKU-053,Gold-Mount Battery A,Battery,377.15,Coastal Cine Supply,5,1.635
+SKU-054,Battery Charger Station A,Battery,462.21,Meridian Camera Systems,5,0.617
+SKU-055,Portable Power Station A,Battery,299.68,Pacific Audio Works,4,0.663
+SKU-056,V-Mount Battery C,Battery,413.71,Meridian Camera Systems,5,1.593
+SKU-057,Gold-Mount Battery B,Battery,180.91,Summit Equipment Partners,4,0.98
+SKU-058,Battery Distribution Block A,Battery,471.22,Apex Grip & Lighting Supply,2,0.797
+SKU-059,On-Camera Monitor 7in,Monitor,3763.23,Northline Rentals Wholesale,12,1.09
+SKU-060,On-Camera Monitor 5in,Monitor,6114.56,Northline Rentals Wholesale,11,0.942
+SKU-061,Director Monitor 17in,Monitor,4391.44,Meridian Camera Systems,8,1.116
+SKU-062,Video Village Monitor Kit A,Monitor,5462.46,Pacific Audio Works,8,1.239
+SKU-063,Waveform Monitor A,Monitor,6100.92,Meridian Camera Systems,8,0.542
+SKU-064,Field Monitor 10in,Monitor,2307.28,Apex Grip & Lighting Supply,5,2.367
+SKU-065,Teleprompter Monitor A,Monitor,1649.63,Meridian Camera Systems,10,2.077
+SKU-066,Client Viewing Monitor A,Monitor,7059.22,Meridian Camera Systems,5,0.639
+SKU-067,Cinema Drone A,Drone,15770.69,Northline Rentals Wholesale,13,0.997
+SKU-068,Cinema Drone B,Drone,3734.05,Apex Grip & Lighting Supply,21,2.021
+SKU-069,Compact Drone A,Drone,3504.62,Coastal Cine Supply,10,0.359
+SKU-070,FPV Drone Kit A,Drone,10620.27,Coastal Cine Supply,21,0.544
+SKU-071,Cinema Drone C,Drone,4795.74,Coastal Cine Supply,20,1.581
+SKU-072,FPV Drone Kit B,Drone,15040.7,Apex Grip & Lighting Supply,19,0.785
+SKU-073,Drone Battery Kit A,Drone,6718.03,Pacific Audio Works,11,1.309
+SKU-074,Drone Controller Kit A,Drone,19156.84,Meridian Camera Systems,16,0.706
+SKU-075,Compact Drone B,Drone,1472.33,Summit Equipment Partners,17,1.092
