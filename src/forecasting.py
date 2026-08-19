@@ -27,10 +27,8 @@ TEST_WEEKS = 10
 MA_WINDOW = 4
 CATEGORICAL_COLS = ["equipment_category", "location_id", "production_type", "production_size"]
 
-
 def load_fact():
     return pd.read_csv("data/processed/fact_demand_weekly.csv", parse_dates=["week_start_date"])
-
 
 def time_aware_split(df):
     """Split by a global date cutoff -- NOT a random shuffle. Train = everything
@@ -40,7 +38,6 @@ def time_aware_split(df):
     train = df[df["week_start_date"] < cutoff_date].copy()
     test = df[df["week_start_date"] >= cutoff_date].copy()
     return train, test, cutoff_date
-
 
 def add_baseline_forecasts(df, ma_window=4):
     """Adds naive_forecast and ma{window}_forecast columns to the FULL panel
@@ -67,7 +64,6 @@ def add_baseline_forecasts(df, ma_window=4):
         lambda s: s.shift(1).rolling(ma_window, min_periods=ma_window).mean()
     )
     return df
-
 
 def compute_metrics(actual, forecast):
     """MAE, RMSE, WAPE over the given rows. WAPE (sum of absolute errors / sum
@@ -126,14 +122,12 @@ def build_features(df, cutoff_date):
     df = pd.get_dummies(df, columns=CATEGORICAL_COLS, drop_first=False)
     return df
 
-
 def get_feature_columns(df):
     base = ["lag_1", "lag_2", "lag_3", "lag_4", "rolling_4wk_std",
              "naive_forecast", "ma4_forecast", "sku_train_avg_demand",
              "month", "quarter", "week_of_year", "is_production_active"]
     dummy_cols = [c for c in df.columns if c.startswith(tuple(f"{col}_" for col in CATEGORICAL_COLS))]
     return base + dummy_cols
-
 
 def train_random_forest(train_df, test_df, feature_cols):
     X_train = train_df[feature_cols]
@@ -147,7 +141,6 @@ def train_random_forest(train_df, test_df, feature_cols):
     model.fit(X_train, y_train)
     preds = model.predict(X_test)
     return model, preds
-
 
 def main():
     df = load_fact()
