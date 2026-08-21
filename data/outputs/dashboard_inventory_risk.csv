@@ -1,0 +1,301 @@
+sku_id,equipment_name,equipment_category,location_id,location_name,on_hand_qty,avg_weekly_forecast_demand,lead_time_days,lead_time_demand,safety_stock,reorder_point,weeks_of_cover,risk_status,reorder_qty_recommended
+SKU-001,Cinema Camera Body A,Camera,LOC-04,New Orleans,6,3.95,17,9.59,10.43,20.02,1.52,Critical,14
+SKU-070,FPV Drone Kit A,Drone,LOC-02,Atlanta,2,1.32,21,3.95,6.71,10.66,1.52,Critical,9
+SKU-005,Documentary Camera Body B,Camera,LOC-01,Los Angeles,8,3.29,14,6.58,9.46,16.04,2.43,Critical,8
+SKU-005,Documentary Camera Body B,Camera,LOC-03,New York,7,2.97,14,5.94,9.46,15.4,2.36,Critical,8
+SKU-009,Large Format Camera A,Camera,LOC-03,New York,11,2.77,19,7.51,11.03,18.54,3.97,Critical,8
+SKU-006,Broadcast Camera Body A,Camera,LOC-04,New Orleans,5,2.02,11,3.18,8.39,11.57,2.47,Critical,7
+SKU-007,Compact Cinema Camera A,Camera,LOC-01,Los Angeles,7,2.45,13,4.54,9.12,13.66,2.86,Critical,7
+SKU-024,Fresnel Light 1000W,Lighting,LOC-03,New York,8,2.9,12,4.97,10.39,15.36,2.76,Critical,7
+SKU-024,Fresnel Light 1000W,Lighting,LOC-04,New Orleans,10,3.87,12,6.63,10.39,17.02,2.59,Critical,7
+SKU-060,On-Camera Monitor 5in,Monitor,LOC-04,New Orleans,6,3.52,11,5.53,7.4,12.92,1.71,Critical,7
+SKU-067,Cinema Drone A,Drone,LOC-04,New Orleans,2,2.12,13,3.94,5.28,9.22,0.94,Critical,7
+SKU-070,FPV Drone Kit A,Drone,LOC-01,Los Angeles,2,0.61,21,1.84,6.71,8.55,3.27,Critical,7
+SKU-070,FPV Drone Kit A,Drone,LOC-03,New York,2,0.69,21,2.08,6.71,8.79,2.88,Critical,7
+SKU-070,FPV Drone Kit A,Drone,LOC-04,New Orleans,2,0.89,21,2.67,6.71,9.38,2.25,Critical,7
+SKU-074,Drone Controller Kit A,Drone,LOC-03,New York,1,0.85,16,1.95,5.86,7.81,1.17,Critical,7
+SKU-002,Cinema Camera Body B,Camera,LOC-04,New Orleans,6,1.66,12,2.84,8.76,11.6,3.62,Critical,6
+SKU-063,Waveform Monitor A,Monitor,LOC-04,New Orleans,3,2.07,8,2.37,6.31,8.68,1.45,Critical,6
+SKU-071,Cinema Drone C,Drone,LOC-03,New York,6,1.93,20,5.51,6.55,12.06,3.11,Critical,6
+SKU-072,FPV Drone Kit B,Drone,LOC-01,Los Angeles,3,1.04,19,2.83,6.39,9.22,2.87,Critical,6
+SKU-006,Broadcast Camera Body A,Camera,LOC-02,Atlanta,7,2.48,11,3.9,8.39,12.29,2.82,Critical,5
+SKU-013,Zoom Lens 24-70mm,Lens,LOC-04,New Orleans,4,1.79,12,3.07,5.82,8.88,2.23,Critical,5
+SKU-032,Shotgun Microphone A,Audio,LOC-02,Atlanta,5,2.56,8,2.92,7.51,10.43,1.95,Critical,5
+SKU-069,Compact Drone A,Drone,LOC-04,New Orleans,1,0.72,10,1.03,4.63,5.67,1.38,Critical,5
+SKU-002,Cinema Camera Body B,Camera,LOC-03,New York,7,1.04,12,1.78,8.76,10.55,6.73,Critical,4
+SKU-013,Zoom Lens 24-70mm,Lens,LOC-03,New York,4,1.18,12,2.01,5.82,7.83,3.4,Critical,4
+SKU-019,Vintage Lens Set A,Lens,LOC-04,New Orleans,5,2.12,11,3.33,5.57,8.89,2.36,Critical,4
+SKU-069,Compact Drone A,Drone,LOC-01,Los Angeles,2,0.61,10,0.87,4.63,5.51,3.27,Critical,4
+SKU-069,Compact Drone A,Drone,LOC-03,New York,2,0.61,10,0.87,4.63,5.5,3.29,Critical,4
+SKU-072,FPV Drone Kit B,Drone,LOC-03,New York,5,0.97,19,2.64,6.39,9.03,5.14,Critical,4
+SKU-045,Grip Arm Kit A,Grip,LOC-04,New Orleans,5,3.87,3,1.66,6.24,7.9,1.29,Critical,3
+SKU-051,V-Mount Battery A,Battery,LOC-03,New York,9,3.07,3,1.31,9.68,11.0,2.93,Critical,2
+SKU-068,Cinema Drone B,Drone,LOC-04,New Orleans,8,3.69,21,11.08,6.71,17.8,2.17,Reorder Now,10
+SKU-030,Light Stand Kit A,Lighting,LOC-04,New Orleans,15,7.67,12,13.14,10.39,23.53,1.96,Reorder Now,9
+SKU-071,Cinema Drone C,Drone,LOC-02,Atlanta,8,3.75,20,10.7,6.55,17.25,2.14,Reorder Now,9
+SKU-009,Large Format Camera A,Camera,LOC-04,New Orleans,13,3.77,19,10.22,11.03,21.25,3.45,Reorder Now,8
+SKU-004,Documentary Camera Body A,Camera,LOC-04,New Orleans,13,4.18,16,9.56,10.12,19.68,3.11,Reorder Now,7
+SKU-003,Cinema Camera Body C,Camera,LOC-04,New Orleans,13,2.85,18,7.33,10.73,18.06,4.56,Reorder Now,5
+SKU-008,Compact Cinema Camera B,Camera,LOC-04,New Orleans,8,3.16,10,4.52,8.0,12.52,2.53,Reorder Now,5
+SKU-037,Wireless Mic System B,Audio,LOC-04,New Orleans,11,5.16,9,6.64,7.96,14.6,2.13,Reorder Now,4
+SKU-074,Drone Controller Kit A,Drone,LOC-02,Atlanta,6,1.69,16,3.85,5.86,9.71,3.56,Reorder Now,4
+SKU-075,Compact Drone B,Drone,LOC-04,New Orleans,7,1.96,17,4.77,6.04,10.81,3.57,Reorder Now,4
+SKU-007,Compact Cinema Camera A,Camera,LOC-03,New York,10,1.94,13,3.6,9.12,12.72,5.16,Reorder Now,3
+SKU-014,Zoom Lens 70-200mm,Lens,LOC-03,New York,9,2.63,14,5.27,6.28,11.55,3.42,Reorder Now,3
+SKU-036,Wireless Mic System A,Audio,LOC-04,New Orleans,6,3.67,5,2.62,5.93,8.55,1.64,Reorder Now,3
+SKU-062,Video Village Monitor Kit A,Monitor,LOC-04,New Orleans,8,4.51,8,5.16,6.31,11.47,1.77,Reorder Now,3
+SKU-067,Cinema Drone A,Drone,LOC-02,Atlanta,7,2.53,13,4.7,5.28,9.98,2.77,Reorder Now,3
+SKU-068,Cinema Drone B,Drone,LOC-01,Los Angeles,13,3.07,21,9.22,6.71,15.93,4.23,Reorder Now,3
+SKU-071,Cinema Drone C,Drone,LOC-04,New Orleans,11,2.75,20,7.86,6.55,14.41,4.0,Reorder Now,3
+SKU-013,Zoom Lens 24-70mm,Lens,LOC-01,Los Angeles,6,1.37,12,2.34,5.82,8.16,4.39,Reorder Now,2
+SKU-015,Anamorphic Lens Set A,Lens,LOC-03,New York,6,1.81,10,2.58,5.31,7.89,3.32,Reorder Now,2
+SKU-029,Practical Light Kit A,Lighting,LOC-01,Los Angeles,13,3.79,10,5.42,9.48,14.9,3.43,Reorder Now,2
+SKU-034,Boom Pole Kit A,Audio,LOC-03,New York,10,5.32,7,5.32,7.02,12.34,1.88,Reorder Now,2
+SKU-038,Audio Mixer A,Audio,LOC-02,Atlanta,8,2.41,8,2.75,7.51,10.26,3.32,Reorder Now,2
+SKU-038,Audio Mixer A,Audio,LOC-04,New Orleans,8,2.11,8,2.41,7.51,9.92,3.79,Reorder Now,2
+SKU-060,On-Camera Monitor 5in,Monitor,LOC-03,New York,9,2.28,11,3.58,7.4,10.97,3.95,Reorder Now,2
+SKU-073,Drone Battery Kit A,Drone,LOC-03,New York,6,1.84,11,2.89,4.86,7.75,3.27,Reorder Now,2
+SKU-074,Drone Controller Kit A,Drone,LOC-01,Los Angeles,6,0.98,16,2.23,5.86,8.09,6.14,Reorder Now,2
+SKU-003,Cinema Camera Body C,Camera,LOC-01,Los Angeles,16,2.38,18,6.13,10.73,16.86,6.71,Reorder Now,1
+SKU-004,Documentary Camera Body A,Camera,LOC-03,New York,16,3.1,16,7.08,10.12,17.2,5.16,Reorder Now,1
+SKU-019,Vintage Lens Set A,Lens,LOC-03,New York,7,1.74,11,2.74,5.57,8.31,4.02,Reorder Now,1
+SKU-032,Shotgun Microphone A,Audio,LOC-01,Los Angeles,9,1.75,8,2.0,7.51,9.5,5.15,Reorder Now,1
+SKU-033,Lavalier Mic Kit A,Audio,LOC-03,New York,9,3.33,7,3.33,7.02,10.35,2.71,Reorder Now,1
+SKU-066,Client Viewing Monitor A,Monitor,LOC-03,New York,5,1.83,5,1.3,4.99,6.29,2.74,Reorder Now,1
+SKU-071,Cinema Drone C,Drone,LOC-01,Los Angeles,11,1.96,20,5.6,6.55,12.15,5.61,Reorder Now,1
+SKU-075,Compact Drone B,Drone,LOC-03,New York,8,1.31,17,3.18,6.04,9.22,6.12,Reorder Now,1
+SKU-007,Compact Cinema Camera A,Camera,LOC-02,Atlanta,16,3.95,13,7.34,9.12,16.46,4.05,Reorder Now,0
+SKU-016,Macro Lens 100mm,Lens,LOC-01,Los Angeles,7,2.22,8,2.54,4.75,7.29,3.15,Reorder Now,0
+SKU-030,Light Stand Kit A,Lighting,LOC-01,Los Angeles,21,6.41,12,11.0,10.39,21.38,3.27,Reorder Now,0
+SKU-044,Camera Dolly A,Grip,LOC-04,New Orleans,13,3.72,7,3.72,9.53,13.25,3.49,Reorder Now,0
+SKU-001,Cinema Camera Body A,Camera,LOC-01,Los Angeles,40,3.45,17,8.37,10.43,18.8,11.61,OK,0
+SKU-001,Cinema Camera Body A,Camera,LOC-02,Atlanta,33,5.98,17,14.53,10.43,24.96,5.52,OK,0
+SKU-001,Cinema Camera Body A,Camera,LOC-03,New York,24,3.08,17,7.49,10.43,17.92,7.78,OK,0
+SKU-002,Cinema Camera Body B,Camera,LOC-01,Los Angeles,12,1.24,12,2.12,8.76,10.89,9.69,OK,0
+SKU-002,Cinema Camera Body B,Camera,LOC-02,Atlanta,14,2.05,12,3.51,8.76,12.28,6.83,OK,0
+SKU-003,Cinema Camera Body C,Camera,LOC-02,Atlanta,26,4.14,18,10.66,10.73,21.39,6.27,OK,0
+SKU-003,Cinema Camera Body C,Camera,LOC-03,New York,18,2.09,18,5.37,10.73,16.1,8.63,OK,0
+SKU-004,Documentary Camera Body A,Camera,LOC-01,Los Angeles,21,3.67,16,8.39,10.12,18.5,5.72,OK,0
+SKU-004,Documentary Camera Body A,Camera,LOC-02,Atlanta,27,6.43,16,14.7,10.12,24.82,4.2,OK,0
+SKU-005,Documentary Camera Body B,Camera,LOC-02,Atlanta,31,5.53,14,11.06,9.46,20.53,5.6,OK,0
+SKU-005,Documentary Camera Body B,Camera,LOC-04,New Orleans,27,3.91,14,7.83,9.46,17.29,6.9,OK,0
+SKU-006,Broadcast Camera Body A,Camera,LOC-01,Los Angeles,42,1.49,11,2.35,8.39,10.74,28.12,OK,0
+SKU-006,Broadcast Camera Body A,Camera,LOC-03,New York,24,1.5,11,2.36,8.39,10.75,15.95,OK,0
+SKU-007,Compact Cinema Camera A,Camera,LOC-04,New Orleans,21,2.9,13,5.39,9.12,14.51,7.24,OK,0
+SKU-008,Compact Cinema Camera B,Camera,LOC-01,Los Angeles,26,2.64,10,3.78,8.0,11.78,9.83,OK,0
+SKU-008,Compact Cinema Camera B,Camera,LOC-02,Atlanta,16,4.1,10,5.85,8.0,13.85,3.91,OK,0
+SKU-008,Compact Cinema Camera B,Camera,LOC-03,New York,12,2.2,10,3.15,8.0,11.15,5.44,OK,0
+SKU-009,Large Format Camera A,Camera,LOC-01,Los Angeles,52,3.34,19,9.06,11.03,20.08,15.58,OK,0
+SKU-009,Large Format Camera A,Camera,LOC-02,Atlanta,54,5.92,19,16.06,11.03,27.08,9.13,OK,0
+SKU-010,Large Format Camera B,Camera,LOC-01,Los Angeles,19,3.53,16,8.06,10.12,18.18,5.39,OK,0
+SKU-010,Large Format Camera B,Camera,LOC-02,Atlanta,44,6.24,16,14.26,10.12,24.38,7.05,OK,0
+SKU-010,Large Format Camera B,Camera,LOC-03,New York,26,2.89,16,6.61,10.12,16.72,9.0,OK,0
+SKU-010,Large Format Camera B,Camera,LOC-04,New Orleans,27,4.43,16,10.12,10.12,20.23,6.1,OK,0
+SKU-011,Prime Lens Set A (18-100mm),Lens,LOC-01,Los Angeles,22,1.73,9,2.22,5.04,7.26,12.73,OK,0
+SKU-011,Prime Lens Set A (18-100mm),Lens,LOC-02,Atlanta,17,2.74,9,3.52,5.04,8.56,6.21,OK,0
+SKU-011,Prime Lens Set A (18-100mm),Lens,LOC-03,New York,14,1.74,9,2.23,5.04,7.27,8.06,OK,0
+SKU-011,Prime Lens Set A (18-100mm),Lens,LOC-04,New Orleans,15,1.97,9,2.53,5.04,7.57,7.62,OK,0
+SKU-012,Prime Lens Set B (24-135mm),Lens,LOC-01,Los Angeles,27,3.62,7,3.62,4.44,8.06,7.45,OK,0
+SKU-012,Prime Lens Set B (24-135mm),Lens,LOC-02,Atlanta,33,6.4,7,6.4,4.44,10.84,5.15,OK,0
+SKU-012,Prime Lens Set B (24-135mm),Lens,LOC-03,New York,15,3.12,7,3.12,4.44,7.56,4.81,OK,0
+SKU-012,Prime Lens Set B (24-135mm),Lens,LOC-04,New Orleans,10,4.29,7,4.29,4.44,8.73,2.33,OK,0
+SKU-013,Zoom Lens 24-70mm,Lens,LOC-02,Atlanta,17,2.31,12,3.96,5.82,9.77,7.37,OK,0
+SKU-014,Zoom Lens 70-200mm,Lens,LOC-01,Los Angeles,22,2.86,14,5.73,6.28,12.01,7.68,OK,0
+SKU-014,Zoom Lens 70-200mm,Lens,LOC-02,Atlanta,17,4.53,14,9.05,6.28,15.33,3.76,OK,0
+SKU-014,Zoom Lens 70-200mm,Lens,LOC-04,New Orleans,15,3.44,14,6.88,6.28,13.17,4.36,OK,0
+SKU-015,Anamorphic Lens Set A,Lens,LOC-01,Los Angeles,21,2.21,10,3.16,5.31,8.47,9.5,OK,0
+SKU-015,Anamorphic Lens Set A,Lens,LOC-02,Atlanta,33,3.86,10,5.51,5.31,10.82,8.56,OK,0
+SKU-015,Anamorphic Lens Set A,Lens,LOC-04,New Orleans,21,2.79,10,3.98,5.31,9.29,7.54,OK,0
+SKU-016,Macro Lens 100mm,Lens,LOC-02,Atlanta,25,4.12,8,4.7,4.75,9.45,6.08,OK,0
+SKU-016,Macro Lens 100mm,Lens,LOC-03,New York,14,2.12,8,2.42,4.75,7.17,6.6,OK,0
+SKU-016,Macro Lens 100mm,Lens,LOC-04,New Orleans,23,3.17,8,3.62,4.75,8.37,7.26,OK,0
+SKU-017,Wide Angle Lens 14mm,Lens,LOC-01,Los Angeles,12,2.5,13,4.65,6.05,10.7,4.79,OK,0
+SKU-017,Wide Angle Lens 14mm,Lens,LOC-02,Atlanta,18,4.2,13,7.79,6.05,13.85,4.29,OK,0
+SKU-017,Wide Angle Lens 14mm,Lens,LOC-03,New York,31,2.21,13,4.11,6.05,10.16,14.0,OK,0
+SKU-017,Wide Angle Lens 14mm,Lens,LOC-04,New Orleans,15,3.22,13,5.97,6.05,12.03,4.66,OK,0
+SKU-018,Telephoto Lens 300mm,Lens,LOC-01,Los Angeles,8,1.72,10,2.46,5.31,7.77,4.64,OK,0
+SKU-018,Telephoto Lens 300mm,Lens,LOC-02,Atlanta,17,2.6,10,3.71,5.31,9.02,6.54,OK,0
+SKU-018,Telephoto Lens 300mm,Lens,LOC-03,New York,10,1.69,10,2.41,5.31,7.72,5.93,OK,0
+SKU-018,Telephoto Lens 300mm,Lens,LOC-04,New Orleans,9,2.09,10,2.99,5.31,8.3,4.3,OK,0
+SKU-019,Vintage Lens Set A,Lens,LOC-01,Los Angeles,25,1.89,11,2.97,5.57,8.53,13.25,OK,0
+SKU-019,Vintage Lens Set A,Lens,LOC-02,Atlanta,20,2.84,11,4.46,5.57,10.02,7.05,OK,0
+SKU-020,Speed Booster Adapter A,Lens,LOC-01,Los Angeles,33,3.45,10,4.93,5.31,10.24,9.56,OK,0
+SKU-020,Speed Booster Adapter A,Lens,LOC-02,Atlanta,26,6.22,10,8.89,5.31,14.2,4.18,OK,0
+SKU-020,Speed Booster Adapter A,Lens,LOC-03,New York,14,3.15,10,4.5,5.31,9.81,4.44,OK,0
+SKU-020,Speed Booster Adapter A,Lens,LOC-04,New Orleans,15,4.5,10,6.43,5.31,11.74,3.33,OK,0
+SKU-021,LED Panel Light A,Lighting,LOC-01,Los Angeles,55,5.62,5,4.01,6.7,10.72,9.79,OK,0
+SKU-021,LED Panel Light A,Lighting,LOC-02,Atlanta,74,10.36,5,7.4,6.7,14.1,7.15,OK,0
+SKU-021,LED Panel Light A,Lighting,LOC-03,New York,18,4.75,5,3.4,6.7,10.1,3.79,OK,0
+SKU-021,LED Panel Light A,Lighting,LOC-04,New Orleans,28,6.92,5,4.95,6.7,11.65,4.04,OK,0
+SKU-022,LED Panel Light B,Lighting,LOC-01,Los Angeles,63,7.36,5,5.26,6.7,11.96,8.56,OK,0
+SKU-022,LED Panel Light B,Lighting,LOC-02,Atlanta,78,12.72,5,9.08,6.7,15.79,6.13,OK,0
+SKU-022,LED Panel Light B,Lighting,LOC-03,New York,54,6.14,5,4.39,6.7,11.09,8.79,OK,0
+SKU-022,LED Panel Light B,Lighting,LOC-04,New Orleans,59,8.82,5,6.3,6.7,13.0,6.69,OK,0
+SKU-023,Fresnel Light 650W,Lighting,LOC-01,Los Angeles,97,7.78,7,7.78,7.93,15.71,12.47,OK,0
+SKU-023,Fresnel Light 650W,Lighting,LOC-02,Atlanta,35,14.15,7,14.15,7.93,22.08,2.47,OK,0
+SKU-023,Fresnel Light 650W,Lighting,LOC-03,New York,54,6.02,7,6.02,7.93,13.96,8.97,OK,0
+SKU-023,Fresnel Light 650W,Lighting,LOC-04,New Orleans,79,8.88,7,8.88,7.93,16.81,8.9,OK,0
+SKU-024,Fresnel Light 1000W,Lighting,LOC-01,Los Angeles,44,3.43,12,5.88,10.39,16.27,12.82,OK,0
+SKU-024,Fresnel Light 1000W,Lighting,LOC-02,Atlanta,24,5.37,12,9.21,10.39,19.6,4.47,OK,0
+SKU-025,HMI Light 1200W,Lighting,LOC-01,Los Angeles,44,5.49,11,8.63,9.94,18.57,8.02,OK,0
+SKU-025,HMI Light 1200W,Lighting,LOC-02,Atlanta,40,10.48,11,16.46,9.94,26.41,3.82,OK,0
+SKU-025,HMI Light 1200W,Lighting,LOC-03,New York,24,4.83,11,7.58,9.94,17.53,4.97,OK,0
+SKU-025,HMI Light 1200W,Lighting,LOC-04,New Orleans,35,6.83,11,10.74,9.94,20.68,5.12,OK,0
+SKU-026,HMI Light 4000W,Lighting,LOC-01,Los Angeles,36,5.78,6,4.96,7.34,12.3,6.23,OK,0
+SKU-026,HMI Light 4000W,Lighting,LOC-02,Atlanta,35,10.2,6,8.74,7.34,16.09,3.43,OK,0
+SKU-026,HMI Light 4000W,Lighting,LOC-03,New York,31,5.02,6,4.3,7.34,11.65,6.17,OK,0
+SKU-026,HMI Light 4000W,Lighting,LOC-04,New Orleans,14,7.22,6,6.19,7.34,13.53,1.94,OK,0
+SKU-027,Softbox Kit A,Lighting,LOC-01,Los Angeles,29,6.12,8,6.99,8.48,15.47,4.74,OK,0
+SKU-027,Softbox Kit A,Lighting,LOC-02,Atlanta,55,10.72,8,12.25,8.48,20.73,5.13,OK,0
+SKU-027,Softbox Kit A,Lighting,LOC-03,New York,58,5.25,8,6.0,8.48,14.48,11.04,OK,0
+SKU-027,Softbox Kit A,Lighting,LOC-04,New Orleans,58,7.57,8,8.65,8.48,17.14,7.66,OK,0
+SKU-028,Ring Light A,Lighting,LOC-01,Los Angeles,25,4.2,7,4.2,7.93,12.13,5.95,OK,0
+SKU-028,Ring Light A,Lighting,LOC-02,Atlanta,55,7.11,7,7.11,7.93,15.04,7.74,OK,0
+SKU-028,Ring Light A,Lighting,LOC-03,New York,16,3.66,7,3.66,7.93,11.59,4.38,OK,0
+SKU-028,Ring Light A,Lighting,LOC-04,New Orleans,33,4.97,7,4.97,7.93,12.9,6.64,OK,0
+SKU-029,Practical Light Kit A,Lighting,LOC-02,Atlanta,74,6.95,10,9.92,9.48,19.41,10.65,OK,0
+SKU-029,Practical Light Kit A,Lighting,LOC-03,New York,17,3.57,10,5.09,9.48,14.58,4.77,OK,0
+SKU-029,Practical Light Kit A,Lighting,LOC-04,New Orleans,17,4.23,10,6.04,9.48,15.52,4.02,OK,0
+SKU-030,Light Stand Kit A,Lighting,LOC-02,Atlanta,52,11.54,12,19.78,10.39,30.16,4.51,OK,0
+SKU-030,Light Stand Kit A,Lighting,LOC-03,New York,51,5.66,12,9.7,10.39,20.09,9.01,OK,0
+SKU-031,Dimmer/Board Controller A,Lighting,LOC-01,Los Angeles,15,3.84,6,3.29,7.34,10.64,3.9,OK,0
+SKU-031,Dimmer/Board Controller A,Lighting,LOC-02,Atlanta,69,7.19,6,6.17,7.34,13.51,9.59,OK,0
+SKU-031,Dimmer/Board Controller A,Lighting,LOC-03,New York,24,3.62,6,3.1,7.34,10.45,6.63,OK,0
+SKU-031,Dimmer/Board Controller A,Lighting,LOC-04,New Orleans,37,4.85,6,4.16,7.34,11.5,7.63,OK,0
+SKU-032,Shotgun Microphone A,Audio,LOC-03,New York,11,1.36,8,1.55,7.51,9.06,8.11,OK,0
+SKU-032,Shotgun Microphone A,Audio,LOC-04,New Orleans,12,2.19,8,2.5,7.51,10.01,5.48,OK,0
+SKU-033,Lavalier Mic Kit A,Audio,LOC-01,Los Angeles,58,4.07,7,4.07,7.02,11.1,14.24,OK,0
+SKU-033,Lavalier Mic Kit A,Audio,LOC-02,Atlanta,25,6.45,7,6.45,7.02,13.47,3.88,OK,0
+SKU-033,Lavalier Mic Kit A,Audio,LOC-04,New Orleans,31,4.63,7,4.63,7.02,11.65,6.69,OK,0
+SKU-034,Boom Pole Kit A,Audio,LOC-01,Los Angeles,31,6.72,7,6.72,7.02,13.74,4.61,OK,0
+SKU-034,Boom Pole Kit A,Audio,LOC-02,Atlanta,56,11.58,7,11.58,7.02,18.61,4.83,OK,0
+SKU-034,Boom Pole Kit A,Audio,LOC-04,New Orleans,32,8.53,7,8.53,7.02,15.55,3.75,OK,0
+SKU-035,Field Audio Recorder A,Audio,LOC-01,Los Angeles,23,2.04,6,1.75,6.5,8.25,11.29,OK,0
+SKU-035,Field Audio Recorder A,Audio,LOC-02,Atlanta,27,3.54,6,3.04,6.5,9.54,7.63,OK,0
+SKU-035,Field Audio Recorder A,Audio,LOC-03,New York,20,1.93,6,1.65,6.5,8.16,10.36,OK,0
+SKU-035,Field Audio Recorder A,Audio,LOC-04,New Orleans,13,2.66,6,2.28,6.5,8.78,4.89,OK,0
+SKU-036,Wireless Mic System A,Audio,LOC-01,Los Angeles,10,3.3,5,2.36,5.93,8.29,3.03,OK,0
+SKU-036,Wireless Mic System A,Audio,LOC-02,Atlanta,34,5.16,5,3.69,5.93,9.62,6.59,OK,0
+SKU-036,Wireless Mic System A,Audio,LOC-03,New York,10,2.67,5,1.9,5.93,7.84,3.75,OK,0
+SKU-037,Wireless Mic System B,Audio,LOC-01,Los Angeles,42,4.19,9,5.39,7.96,13.35,10.02,OK,0
+SKU-037,Wireless Mic System B,Audio,LOC-02,Atlanta,75,7.32,9,9.41,7.96,17.37,10.25,OK,0
+SKU-037,Wireless Mic System B,Audio,LOC-03,New York,13,3.45,9,4.43,7.96,12.39,3.77,OK,0
+SKU-038,Audio Mixer A,Audio,LOC-01,Los Angeles,20,1.48,8,1.69,7.51,9.2,13.5,OK,0
+SKU-038,Audio Mixer A,Audio,LOC-03,New York,11,1.25,8,1.43,7.51,8.94,8.8,OK,0
+SKU-039,Studio Headphones Kit A,Audio,LOC-01,Los Angeles,21,3.72,7,3.72,7.02,10.74,5.65,OK,0
+SKU-039,Studio Headphones Kit A,Audio,LOC-02,Atlanta,39,6.53,7,6.53,7.02,13.56,5.97,OK,0
+SKU-039,Studio Headphones Kit A,Audio,LOC-03,New York,23,3.29,7,3.29,7.02,10.31,7.0,OK,0
+SKU-039,Studio Headphones Kit A,Audio,LOC-04,New Orleans,13,4.49,7,4.49,7.02,11.51,2.9,OK,0
+SKU-040,Boom Pole Kit B,Audio,LOC-01,Los Angeles,46,3.39,5,2.42,5.93,8.36,13.55,OK,0
+SKU-040,Boom Pole Kit B,Audio,LOC-02,Atlanta,56,5.42,5,3.87,5.93,9.81,10.32,OK,0
+SKU-040,Boom Pole Kit B,Audio,LOC-03,New York,16,2.69,5,1.92,5.93,7.85,5.95,OK,0
+SKU-040,Boom Pole Kit B,Audio,LOC-04,New Orleans,31,4.19,5,2.99,5.93,8.93,7.4,OK,0
+SKU-041,C-Stand Kit A,Grip,LOC-01,Los Angeles,34,7.42,6,6.36,8.82,15.18,4.58,OK,0
+SKU-041,C-Stand Kit A,Grip,LOC-02,Atlanta,28,12.49,6,10.71,8.82,19.52,2.24,OK,0
+SKU-041,C-Stand Kit A,Grip,LOC-03,New York,18,5.92,6,5.08,8.82,13.89,3.04,OK,0
+SKU-041,C-Stand Kit A,Grip,LOC-04,New Orleans,66,8.76,6,7.51,8.82,16.33,7.53,OK,0
+SKU-042,Sandbag Set A,Grip,LOC-01,Los Angeles,34,7.67,3,3.29,6.24,9.52,4.43,OK,0
+SKU-042,Sandbag Set A,Grip,LOC-02,Atlanta,87,13.29,3,5.7,6.24,11.93,6.55,OK,0
+SKU-042,Sandbag Set A,Grip,LOC-03,New York,39,5.98,3,2.56,6.24,8.8,6.52,OK,0
+SKU-042,Sandbag Set A,Grip,LOC-04,New Orleans,64,8.89,3,3.81,6.24,10.05,7.2,OK,0
+SKU-043,Dolly Track Kit A,Grip,LOC-01,Los Angeles,23,4.14,3,1.77,6.24,8.01,5.56,OK,0
+SKU-043,Dolly Track Kit A,Grip,LOC-02,Atlanta,16,7.52,3,3.22,6.24,9.46,2.13,OK,0
+SKU-043,Dolly Track Kit A,Grip,LOC-03,New York,23,3.98,3,1.7,6.24,7.94,5.78,OK,0
+SKU-043,Dolly Track Kit A,Grip,LOC-04,New Orleans,17,5.61,3,2.4,6.24,8.64,3.03,OK,0
+SKU-044,Camera Dolly A,Grip,LOC-01,Los Angeles,16,3.48,7,3.48,9.53,13.01,4.6,OK,0
+SKU-044,Camera Dolly A,Grip,LOC-02,Atlanta,24,5.55,7,5.55,9.53,15.07,4.33,OK,0
+SKU-044,Camera Dolly A,Grip,LOC-03,New York,18,2.9,7,2.9,9.53,12.42,6.22,OK,0
+SKU-045,Grip Arm Kit A,Grip,LOC-01,Los Angeles,55,3.42,3,1.46,6.24,7.7,16.1,OK,0
+SKU-045,Grip Arm Kit A,Grip,LOC-02,Atlanta,51,5.15,3,2.21,6.24,8.44,9.89,OK,0
+SKU-045,Grip Arm Kit A,Grip,LOC-03,New York,19,2.77,3,1.19,6.24,7.42,6.87,OK,0
+SKU-046,Apple Box Set A,Grip,LOC-01,Los Angeles,99,9.9,4,5.66,7.2,12.86,10.0,OK,0
+SKU-046,Apple Box Set A,Grip,LOC-02,Atlanta,55,16.47,4,9.41,7.2,16.61,3.34,OK,0
+SKU-046,Apple Box Set A,Grip,LOC-03,New York,45,7.77,4,4.44,7.2,11.64,5.79,OK,0
+SKU-046,Apple Box Set A,Grip,LOC-04,New Orleans,72,12.46,4,7.12,7.2,14.32,5.78,OK,0
+SKU-047,Flag/Scrim Kit A,Grip,LOC-01,Los Angeles,60,7.86,6,6.74,8.82,15.56,7.63,OK,0
+SKU-047,Flag/Scrim Kit A,Grip,LOC-02,Atlanta,75,13.34,6,11.43,8.82,20.25,5.62,OK,0
+SKU-047,Flag/Scrim Kit A,Grip,LOC-03,New York,68,6.45,6,5.53,8.82,14.35,10.54,OK,0
+SKU-047,Flag/Scrim Kit A,Grip,LOC-04,New Orleans,43,9.45,6,8.1,8.82,16.92,4.55,OK,0
+SKU-048,Gimbal Stabilizer A,Grip,LOC-01,Los Angeles,97,7.18,5,5.13,8.05,13.18,13.51,OK,0
+SKU-048,Gimbal Stabilizer A,Grip,LOC-02,Atlanta,32,12.95,5,9.25,8.05,17.3,2.47,OK,0
+SKU-048,Gimbal Stabilizer A,Grip,LOC-03,New York,29,5.88,5,4.2,8.05,12.25,4.94,OK,0
+SKU-048,Gimbal Stabilizer A,Grip,LOC-04,New Orleans,72,8.48,5,6.05,8.05,14.1,8.5,OK,0
+SKU-049,Tripod Head A,Grip,LOC-01,Los Angeles,62,4.35,5,3.11,8.05,11.16,14.25,OK,0
+SKU-049,Tripod Head A,Grip,LOC-02,Atlanta,67,8.19,5,5.85,8.05,13.9,8.18,OK,0
+SKU-049,Tripod Head A,Grip,LOC-03,New York,15,3.95,5,2.82,8.05,10.87,3.8,OK,0
+SKU-049,Tripod Head A,Grip,LOC-04,New Orleans,14,5.91,5,4.22,8.05,12.27,2.37,OK,0
+SKU-050,Slider Rig A,Grip,LOC-01,Los Angeles,64,6.7,4,3.83,7.2,11.03,9.55,OK,0
+SKU-050,Slider Rig A,Grip,LOC-02,Atlanta,67,12.21,4,6.98,7.2,14.18,5.49,OK,0
+SKU-050,Slider Rig A,Grip,LOC-03,New York,61,5.62,4,3.21,7.2,10.41,10.85,OK,0
+SKU-050,Slider Rig A,Grip,LOC-04,New Orleans,17,7.95,4,4.54,7.2,11.74,2.14,OK,0
+SKU-051,V-Mount Battery A,Battery,LOC-01,Los Angeles,51,3.4,3,1.46,9.68,11.14,15.02,OK,0
+SKU-051,V-Mount Battery A,Battery,LOC-02,Atlanta,18,6.51,3,2.79,9.68,12.47,2.77,OK,0
+SKU-051,V-Mount Battery A,Battery,LOC-04,New Orleans,33,4.22,3,1.81,9.68,11.49,7.82,OK,0
+SKU-052,V-Mount Battery B,Battery,LOC-01,Los Angeles,170,9.81,2,2.8,7.91,10.71,17.33,OK,0
+SKU-052,V-Mount Battery B,Battery,LOC-02,Atlanta,49,15.52,2,4.43,7.91,12.34,3.16,OK,0
+SKU-052,V-Mount Battery B,Battery,LOC-03,New York,51,8.21,2,2.35,7.91,10.25,6.21,OK,0
+SKU-052,V-Mount Battery B,Battery,LOC-04,New Orleans,78,11.06,2,3.16,7.91,11.07,7.05,OK,0
+SKU-053,Gold-Mount Battery A,Battery,LOC-01,Los Angeles,211,13.09,5,9.35,12.5,21.85,16.12,OK,0
+SKU-053,Gold-Mount Battery A,Battery,LOC-02,Atlanta,212,28.49,5,20.35,12.5,32.85,7.44,OK,0
+SKU-053,Gold-Mount Battery A,Battery,LOC-03,New York,58,13.58,5,9.7,12.5,22.2,4.27,OK,0
+SKU-053,Gold-Mount Battery A,Battery,LOC-04,New Orleans,60,22.33,5,15.95,12.5,28.45,2.69,OK,0
+SKU-054,Battery Charger Station A,Battery,LOC-01,Los Angeles,29,5.74,5,4.1,12.5,16.6,5.05,OK,0
+SKU-054,Battery Charger Station A,Battery,LOC-02,Atlanta,54,9.45,5,6.75,12.5,19.25,5.72,OK,0
+SKU-054,Battery Charger Station A,Battery,LOC-03,New York,24,4.59,5,3.28,12.5,15.78,5.23,OK,0
+SKU-054,Battery Charger Station A,Battery,LOC-04,New Orleans,22,7.3,5,5.21,12.5,17.72,3.01,OK,0
+SKU-055,Portable Power Station A,Battery,LOC-01,Los Angeles,66,6.35,4,3.63,11.18,14.81,10.39,OK,0
+SKU-055,Portable Power Station A,Battery,LOC-02,Atlanta,32,10.59,4,6.05,11.18,17.23,3.02,OK,0
+SKU-055,Portable Power Station A,Battery,LOC-03,New York,37,4.99,4,2.85,11.18,14.04,7.41,OK,0
+SKU-055,Portable Power Station A,Battery,LOC-04,New Orleans,34,7.58,4,4.33,11.18,15.51,4.48,OK,0
+SKU-056,V-Mount Battery C,Battery,LOC-01,Los Angeles,93,14.11,5,10.08,12.5,22.58,6.59,OK,0
+SKU-056,V-Mount Battery C,Battery,LOC-02,Atlanta,198,24.0,5,17.14,12.5,29.64,8.25,OK,0
+SKU-056,V-Mount Battery C,Battery,LOC-03,New York,92,13.2,5,9.43,12.5,21.93,6.97,OK,0
+SKU-056,V-Mount Battery C,Battery,LOC-04,New Orleans,123,21.71,5,15.51,12.5,28.01,5.66,OK,0
+SKU-057,Gold-Mount Battery B,Battery,LOC-01,Los Angeles,55,8.06,4,4.6,11.18,15.79,6.83,OK,0
+SKU-057,Gold-Mount Battery B,Battery,LOC-02,Atlanta,93,12.86,4,7.35,11.18,18.53,7.23,OK,0
+SKU-057,Gold-Mount Battery B,Battery,LOC-03,New York,50,7.04,4,4.03,11.18,15.21,7.1,OK,0
+SKU-057,Gold-Mount Battery B,Battery,LOC-04,New Orleans,29,9.85,4,5.63,11.18,16.81,2.94,OK,0
+SKU-058,Battery Distribution Block A,Battery,LOC-01,Los Angeles,115,6.72,2,1.92,7.91,9.83,17.12,OK,0
+SKU-058,Battery Distribution Block A,Battery,LOC-02,Atlanta,71,11.8,2,3.37,7.91,11.28,6.02,OK,0
+SKU-058,Battery Distribution Block A,Battery,LOC-03,New York,44,5.23,2,1.49,7.91,9.4,8.41,OK,0
+SKU-058,Battery Distribution Block A,Battery,LOC-04,New Orleans,59,8.03,2,2.29,7.91,10.2,7.35,OK,0
+SKU-059,On-Camera Monitor 7in,Monitor,LOC-01,Los Angeles,38,3.33,12,5.7,7.72,13.43,11.43,OK,0
+SKU-059,On-Camera Monitor 7in,Monitor,LOC-02,Atlanta,39,5.35,12,9.18,7.72,16.9,7.29,OK,0
+SKU-059,On-Camera Monitor 7in,Monitor,LOC-03,New York,24,2.72,12,4.67,7.72,12.39,8.81,OK,0
+SKU-059,On-Camera Monitor 7in,Monitor,LOC-04,New Orleans,29,4.0,12,6.85,7.72,14.57,7.26,OK,0
+SKU-060,On-Camera Monitor 5in,Monitor,LOC-01,Los Angeles,29,2.73,11,4.29,7.4,11.69,10.62,OK,0
+SKU-060,On-Camera Monitor 5in,Monitor,LOC-02,Atlanta,47,4.53,11,7.11,7.4,14.51,10.38,OK,0
+SKU-061,Director Monitor 17in,Monitor,LOC-01,Los Angeles,27,3.36,8,3.84,6.31,10.15,8.04,OK,0
+SKU-061,Director Monitor 17in,Monitor,LOC-02,Atlanta,37,5.44,8,6.22,6.31,12.53,6.8,OK,0
+SKU-061,Director Monitor 17in,Monitor,LOC-03,New York,25,2.73,8,3.12,6.31,9.43,9.15,OK,0
+SKU-061,Director Monitor 17in,Monitor,LOC-04,New Orleans,45,4.06,8,4.64,6.31,10.95,11.09,OK,0
+SKU-062,Video Village Monitor Kit A,Monitor,LOC-01,Los Angeles,38,3.39,8,3.88,6.31,10.18,11.2,OK,0
+SKU-062,Video Village Monitor Kit A,Monitor,LOC-02,Atlanta,20,6.16,8,7.04,6.31,13.35,3.24,OK,0
+SKU-062,Video Village Monitor Kit A,Monitor,LOC-03,New York,15,3.27,8,3.74,6.31,10.04,4.59,OK,0
+SKU-063,Waveform Monitor A,Monitor,LOC-01,Los Angeles,13,1.45,8,1.66,6.31,7.97,8.95,OK,0
+SKU-063,Waveform Monitor A,Monitor,LOC-02,Atlanta,16,2.48,8,2.84,6.31,9.14,6.45,OK,0
+SKU-063,Waveform Monitor A,Monitor,LOC-03,New York,8,1.33,8,1.52,6.31,7.83,6.0,OK,0
+SKU-064,Field Monitor 10in,Monitor,LOC-01,Los Angeles,24,6.61,5,4.72,4.99,9.71,3.63,OK,0
+SKU-064,Field Monitor 10in,Monitor,LOC-02,Atlanta,84,11.6,5,8.29,4.99,13.28,7.24,OK,0
+SKU-064,Field Monitor 10in,Monitor,LOC-03,New York,57,5.52,5,3.95,4.99,8.93,10.32,OK,0
+SKU-064,Field Monitor 10in,Monitor,LOC-04,New Orleans,16,7.98,5,5.7,4.99,10.68,2.01,OK,0
+SKU-065,Teleprompter Monitor A,Monitor,LOC-01,Los Angeles,95,5.87,10,8.39,7.05,15.44,16.18,OK,0
+SKU-065,Teleprompter Monitor A,Monitor,LOC-02,Atlanta,61,10.37,10,14.82,7.05,21.87,5.88,OK,0
+SKU-065,Teleprompter Monitor A,Monitor,LOC-03,New York,58,4.82,10,6.89,7.05,13.94,12.02,OK,0
+SKU-065,Teleprompter Monitor A,Monitor,LOC-04,New Orleans,46,7.73,10,11.04,7.05,18.09,5.95,OK,0
+SKU-066,Client Viewing Monitor A,Monitor,LOC-01,Los Angeles,12,1.95,5,1.39,4.99,6.38,6.16,OK,0
+SKU-066,Client Viewing Monitor A,Monitor,LOC-02,Atlanta,12,3.34,5,2.39,4.99,7.37,3.59,OK,0
+SKU-066,Client Viewing Monitor A,Monitor,LOC-04,New Orleans,9,2.6,5,1.86,4.99,6.85,3.46,OK,0
+SKU-067,Cinema Drone A,Drone,LOC-01,Los Angeles,9,1.37,13,2.54,5.28,7.82,6.58,OK,0
+SKU-067,Cinema Drone A,Drone,LOC-03,New York,9,1.3,13,2.41,5.28,7.69,6.93,OK,0
+SKU-068,Cinema Drone B,Drone,LOC-02,Atlanta,23,5.09,21,15.28,6.71,22.0,4.51,OK,0
+SKU-068,Cinema Drone B,Drone,LOC-03,New York,16,2.56,21,7.69,6.71,14.4,6.24,OK,0
+SKU-069,Compact Drone A,Drone,LOC-02,Atlanta,6,0.81,10,1.16,4.63,5.79,7.41,OK,0
+SKU-072,FPV Drone Kit B,Drone,LOC-02,Atlanta,16,1.77,19,4.81,6.39,11.2,9.03,OK,0
+SKU-072,FPV Drone Kit B,Drone,LOC-04,New Orleans,15,1.23,19,3.33,6.39,9.72,12.22,OK,0
+SKU-073,Drone Battery Kit A,Drone,LOC-01,Los Angeles,9,1.74,11,2.73,4.86,7.59,5.18,OK,0
+SKU-073,Drone Battery Kit A,Drone,LOC-02,Atlanta,17,2.79,11,4.39,4.86,9.25,6.09,OK,0
+SKU-073,Drone Battery Kit A,Drone,LOC-04,New Orleans,12,1.97,11,3.1,4.86,7.96,6.08,OK,0
+SKU-074,Drone Controller Kit A,Drone,LOC-04,New Orleans,12,1.27,16,2.9,5.86,8.76,9.45,OK,0
+SKU-075,Compact Drone B,Drone,LOC-01,Los Angeles,19,1.32,17,3.2,6.04,9.24,14.4,OK,0
+SKU-075,Compact Drone B,Drone,LOC-02,Atlanta,21,2.61,17,6.33,6.04,12.37,8.06,OK,0

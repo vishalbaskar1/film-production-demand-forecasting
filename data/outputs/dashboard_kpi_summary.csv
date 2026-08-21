@@ -1,0 +1,9 @@
+equipment_category,sku_locations,critical_count,reorder_now_count,ok_count,total_units_to_reorder
+Drone,36,12,11,13,115
+Camera,40,9,8,23,97
+Lens,40,3,5,32,21
+Monitor,32,2,3,27,19
+Lighting,44,2,3,39,25
+Grip,40,1,1,38,3
+Battery,32,1,0,31,2
+Audio,36,1,7,28,20

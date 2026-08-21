@@ -9,8 +9,18 @@ fact tables (fact_demand_weekly, inventory_snapshot), with explicit primary and
 foreign keys. See Phase 5 discussion for why this schema (not a more normalized one)
 was chosen.
 
+Phase 12 adds two more tables, loaded from the Phase 9/11 analysis outputs:
+forecast_results and inventory_recommendations. Both are deliberately NORMALIZED --
+they store only the columns each phase actually computed, not values that already
+live in another table (e.g. forecast_results does not repeat units_requested, since
+that's already in fact_demand_weekly under the same key; inventory_recommendations
+does not repeat equipment_name/category/lead_time_days, already in dim_equipment).
+sql/04_dashboard_queries.sql is where these get JOINed back together and flattened
+for Tableau -- denormalization happens at export time, not in the source tables.
+
 Rerunnable: drops and recreates all tables each time, so this script always produces
-the database fresh from the current processed CSVs rather than accumulating state.
+the database fresh from the current processed CSVs and analysis outputs rather than
+accumulating state.
 """
 
 import sqlite3
@@ -19,6 +29,8 @@ import pandas as pd
 DB_PATH = "database/production_inventory.db"
 
 SCHEMA = """
+DROP TABLE IF EXISTS inventory_recommendations;
+DROP TABLE IF EXISTS forecast_results;
 DROP TABLE IF EXISTS fact_demand_weekly;
 DROP TABLE IF EXISTS inventory_snapshot;
 DROP TABLE IF EXISTS dim_equipment;
@@ -66,6 +78,35 @@ CREATE TABLE inventory_snapshot (
     FOREIGN KEY (sku_id) REFERENCES dim_equipment(sku_id),
     FOREIGN KEY (location_id) REFERENCES dim_location(location_id)
 );
+
+CREATE TABLE forecast_results (
+    sku_id              TEXT NOT NULL,
+    location_id         TEXT NOT NULL,
+    week_start_date     TEXT NOT NULL,
+    naive_forecast      REAL,
+    ma4_forecast        REAL,
+    rf_forecast         REAL NOT NULL,
+    PRIMARY KEY (sku_id, location_id, week_start_date),
+    FOREIGN KEY (sku_id) REFERENCES dim_equipment(sku_id),
+    FOREIGN KEY (location_id) REFERENCES dim_location(location_id)
+);
+
+CREATE TABLE inventory_recommendations (
+    sku_id                      TEXT NOT NULL,
+    location_id                 TEXT NOT NULL,
+    avg_weekly_forecast_demand  REAL NOT NULL,
+    std_error                   REAL NOT NULL,
+    lead_time_weeks             REAL NOT NULL,
+    lead_time_demand            REAL NOT NULL,
+    safety_stock                REAL NOT NULL,
+    reorder_point                REAL NOT NULL,
+    weeks_of_cover               REAL,
+    risk_status                  TEXT NOT NULL,
+    reorder_qty_recommended      INTEGER NOT NULL,
+    PRIMARY KEY (sku_id, location_id),
+    FOREIGN KEY (sku_id) REFERENCES dim_equipment(sku_id),
+    FOREIGN KEY (location_id) REFERENCES dim_location(location_id)
+);
 """
 
 
@@ -86,6 +127,19 @@ def main():
     loc.to_sql("dim_location", conn, if_exists="append", index=False)
     fact.to_sql("fact_demand_weekly", conn, if_exists="append", index=False)
     inv.to_sql("inventory_snapshot", conn, if_exists="append", index=False)
+
+    # Phase 12: load Phase 9/11 analysis outputs, keeping only each table's own
+    # columns (see the normalization note in the module docstring).
+    forecast = pd.read_csv("data/processed/test_predictions_with_rf.csv")[
+        ["sku_id", "location_id", "week_start_date", "naive_forecast", "ma4_forecast", "rf_forecast"]
+    ]
+    inv_rec = pd.read_csv("data/processed/inventory_recommendations.csv")[
+        ["sku_id", "location_id", "avg_weekly_forecast_demand", "std_error", "lead_time_weeks",
+         "lead_time_demand", "safety_stock", "reorder_point", "weeks_of_cover",
+         "risk_status", "reorder_qty_recommended"]
+    ]
+    forecast.to_sql("forecast_results", conn, if_exists="append", index=False)
+    inv_rec.to_sql("inventory_recommendations", conn, if_exists="append", index=False)
     conn.commit()
 
     # Foreign key integrity check -- PRAGMA foreign_key_check returns rows only
@@ -94,7 +148,8 @@ def main():
 
     # Row count verification
     counts = {}
-    for table in ["dim_equipment", "dim_location", "fact_demand_weekly", "inventory_snapshot"]:
+    for table in ["dim_equipment", "dim_location", "fact_demand_weekly", "inventory_snapshot",
+                   "forecast_results", "inventory_recommendations"]:
         counts[table] = conn.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
 
     print("Database built at:", DB_PATH)
