@@ -39,7 +39,7 @@ film-production-demand-forecasting/
 ├── sql/                 business-analysis SQL queries (data quality, demand, inventory, dashboard exports)
 ├── notebooks/           01_eda.ipynb — exploratory data analysis notebook
 ├── src/                 pipeline scripts, run in order (see "How to Reproduce" below)
-├── tableau/             packaged Tableau workbook (.twbx)
+├── tableau/             placeholder — the dashboard itself lives on Tableau Public (link above)
 ├── images/              saved charts (EDA, evaluation, inventory) referenced throughout this README
 └── docs/
     └── business_insights.md   full write-up of findings, in business language
@@ -94,6 +94,11 @@ baseline. It is not equally accurate everywhere, though — it performs worst (h
 Camera equipment, and has a small systematic tendency to under-predict demand spikes rather than routine
 weeks. Both limitations are discussed honestly, with supporting charts, in `docs/business_insights.md`.
 
+<p align="center">
+  <img src="images/evaluation/01_actual_vs_predicted.png" alt="Actual vs. predicted demand (Random Forest)" width="49%">
+  <img src="images/evaluation/03_wape_by_category.png" alt="Forecast WAPE by equipment category" width="49%">
+</p>
+
 Using that forecast, the inventory analysis classifies all 300 SKU-location combinations:
 
 - **231 OK**, **38 Reorder Now**, **31 Critical** — 23% of the catalog needs attention right now.
@@ -112,8 +117,9 @@ The finished dashboard is published to Tableau Public:
 
 It includes: KPI tiles (critical count, reorder-now count, total units to reorder), a risk-by-category
 breakdown, a forecast-vs-actual trend view, and a full reorder-priority table — all cross-filterable by
-equipment category and location. The packaged workbook (`.twbx`) is also included in `tableau/` for anyone
-who wants to open the underlying build in Tableau Desktop or Tableau Public.
+equipment category and location.
+
+![Stockout risk by equipment category](images/inventory/01_risk_by_category.png)
 
 ## Limitations and Assumptions
 
@@ -131,7 +137,7 @@ Full detail is in `docs/business_insights.md`; in short:
 
 ```bash
 # 1. Clone and install dependencies
-git clone <this-repo>
+git clone https://github.com/vishalbaskar1/film-production-demand-forecasting.git
 cd film-production-demand-forecasting
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -150,8 +156,7 @@ python src/export_dashboard_data.py  # data/outputs/*.csv, for Tableau
 # 3. Explore the SQL analysis (optional)
 sqlite3 database/production_inventory.db < sql/01_data_quality.sql
 
-# 4. Open the Tableau workbook (tableau/*.twbx) in Tableau Desktop/Public,
-#    or view the published dashboard link above directly.
+# 4. View the interactive dashboard on Tableau Public (link at the top of this README).
 ```
 
 Note: `src/database.py` must be run **after** the forecasting and inventory scripts, since it loads their
